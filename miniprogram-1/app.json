@@ -1,13 +1,41 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/search/search"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#096",
+    "navigationBarTitleText": "微信小程序开发中····",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/shouye.png",
+      "selectedIconPath": "icon/_shouye.png"
+    }, {
+      "pagePath": "pages/img/img",
+      "text": "预览",
+      "iconPath": "icon/image.png",
+      "selectedIconPath": "icon/_image.png" 
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "个人中心",
+      "iconPath": "icon/geren.png",
+      "selectedIconPath": "icon/_geren.png"
+    }, {
+      "pagePath": "pages/img/img",
+      "text": "搜索",
+      "iconPath": "icon/sousuo.png",
+      "selectedIconPath": "icon/_sousuo.png"
+    }],
+    "color":"#0094ff",
+    "selectedColor": "#000" 
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
